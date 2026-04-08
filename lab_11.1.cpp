@@ -7,8 +7,8 @@ int main () {
   cout << "Enter a and b : ";
   cin >> a >> b;
 
-  float *ptrA = &a;
-  float *ptrB = &b;
+  int *ptrA = &a;
+  int *ptrB = &b;
 
   *ptrA *= 3;
   *ptrB /= 3;
