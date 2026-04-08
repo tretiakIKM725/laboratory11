@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+  float a, b;
+
+  cout << "Enter a and b : ";
+  cin >> a >> b;
+
+  float *ptrA = &a;
+  float *ptrB = &b;
+
+  *ptrA *= 3;
+  *ptrB /= 3;
+
+  cout << "Result : \na = " << a << ";\tb = " << b << endl;
+  
+  return 0;
+}
